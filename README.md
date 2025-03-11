@@ -18,3 +18,6 @@ Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instan
 | Hanya memiliki satu instance. | Perlu perlakuan khusus jika dalam kondisi multithread. |
 | Membuat akses fungsi global. | Kesulitan ketika membuat unit test karena instance bersifat private. |
 | Objek hanya diinisialisasi untuk pertama kali saja. |
+
+#### Sumber
+[Refactoring Guru - Command Pattern](https://informatics.uii.ac.id/2023/02/06/berkenalan-dengan-singleton-design-pattern/)
