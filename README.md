@@ -12,6 +12,8 @@ Singleton adalah kelas yang hanya dapat memiliki satu objek (kelas) pada satu wa
 ## Tujuan Design Pattern Singleton
 Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instansiasi yang menyediakan akses global pada instansiasi tersebut. Pola desain ini membatasi sebuah kelas dan memastikan sebuah kelas hanya mengembalikan satu instansiasi saja atau instansiasi tunggal. Penggunaan singleton ini didasari pada sebuah masalah pada pembuatan sebuah objek di mana sebuah class dapat membuat banyak instansiasi. Padahal, instansiasi tersebut cuma dibutuhkan satu saja, atau sebenarnya hanya perlu satu instansiasi saja untuk melakukan sebuah aksi pada program. 
 
+## Penggunaan Design Pattern Singleton
+
 ## Kelebihan dan Kekurangan Singleton
 | **Kelebihan** | **Kekurangan** |
 |---------------|--------------|
