@@ -6,5 +6,5 @@
 - Oktria Taranasta (231000)
 - Jenie Josphin (23100016)
 
-## Definisi Pola Desain Singleton
-Singleton adalah kelas yang hanya dapat memiliki satu objek (contoh kelas) pada satu waktu. Setelah pertama kali, jika kita mencoba membuat contoh kelas Java Singleton, variabel baru juga menunjuk ke contoh pertama yang dibuat. Jadi, modifikasi apa pun yang kita lakukan pada variabel apa pun di dalam kelas melalui contoh apa pun, memengaruhi variabel dari contoh tunggal yang dibuat dan terlihat jika kita mengakses variabel itu melalui variabel apa pun dari tipe kelas yang ditentukan.  
+### Definisi Pola Desain Singleton
+Singleton adalah kelas yang hanya dapat memiliki satu objek (kelas) pada satu waktu. Setelah pertama kali, jika mencoba membuat contoh kelas Java Singleton, variabel baru juga menunjuk ke contoh pertama yang dibuat. Jadi, modifikasi apa pun yang kita lakukan pada variabel apa pun di dalam kelas melalui contoh apa pun, dapat memengaruhi variabel dari contoh tunggal yang dibuat dan terlihat jika mengakses variabel itu melalui variabel apa pun dari tipe kelas yang ditentukan.  
