@@ -14,6 +14,13 @@ Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instan
 
 ## Penggunaan Design Pattern Singleton
 
+
+
+## Hubungan Design Pattern Singleton dengan Pola Lainnya
+Hubungan dengan kelas Facade seringkali dapat diubah menjadi Singleton karena satu objek facade saja sudah dapat mencukupi dalam kebanyakan kasus. Flyweight akan menyerupai Singleton jika berhasil mengurangi semua status bersama objek menjadi hanya satu objek flyweight. Namun, ada dua perbedaan mendasar antara pola-pola berikut. Seharusnya hanya ada satu instansi Singleton, sedangkan kelas Flyweight dapat memiliki beberapa instansi dengan status intrinsik yang berbeda.
+Objek Singleton dapat berubah. Objek Flyweight tidak dapat diubah.
+Pabrik Abstrak, Pembangun dan Prototipe semuanya dapat diimplementasikan sebagai Singleton .
+
 ## Kelebihan dan Kekurangan Singleton
 | **Kelebihan** | **Kekurangan** |
 |---------------|--------------|
