@@ -14,7 +14,7 @@ Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instan
 
 #### Kelebihan dan Kekurangan Singleton
 | **Kelebihan** | **Kekurangan** |
-|--------------|--------------|
+|---------------|--------------|
 | Hanya memiliki satu instance. | Perlu perlakuan khusus jika dalam kondisi multithread. |
 | Membuat akses fungsi global. | Kesulitan ketika membuat unit test karena instance bersifat private. |
 | Objek hanya diinisialisasi untuk pertama kali saja. |
