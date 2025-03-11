@@ -20,4 +20,5 @@ Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instan
 | Objek hanya diinisialisasi untuk pertama kali saja. |
 
 ## Sumber
-[Refactoring Guru - Command Pattern](https://informatics.uii.ac.id/2023/02/06/berkenalan-dengan-singleton-design-pattern/)
+- [Refactoring Guru - Command Pattern](https://informatics.uii.ac.id/2023/02/06/berkenalan-dengan-singleton-design-pattern/)
+- [Refactoring Guru - Command Pattern](https://www.santekno.com/cara-implementasi-singleton-design-pattern-golang/)
