@@ -8,4 +8,4 @@
 
 ## Pola Desain Singleton
 **Definisi:**
-Singleton adalah pola desain kreasi yang memastikan bahwa suatu kelas hanya memiliki satu instansi dan menyediakan titik akses global ke instansi tersebut.
+Singleton design pattern termasuk ke dalam jenis creational design pattern yang berarti pola desain ini digunakan dalam konteks pembuatan sebuah instansiasi dari kelas objek. Singleton design pattern bertujuan agar sebuah class hanya mempunyai satu instansiasi yang menyediakan akses global pada instansiasi tersebut. Pola desain ini membatasi sebuah kelas dan memastikan sebuah kelas hanya mengembalikan satu instansiasi saja/instansiasi tunggal. 
