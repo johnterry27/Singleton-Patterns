@@ -28,7 +28,12 @@ Penerapan
 ## Hubungan Design Pattern Singleton dengan Pola Lainnya
 Hubungan dengan kelas Facade seringkali dapat diubah menjadi Singleton karena satu objek facade saja sudah dapat mencukupi dalam kebanyakan kasus. Flyweight akan menyerupai Singleton jika berhasil mengurangi semua status bersama objek menjadi hanya satu objek flyweight. Namun, ada dua perbedaan mendasar antara pola-pola berikut. Seharusnya hanya ada satu instansi Singleton, sedangkan kelas Flyweight dapat memiliki beberapa instansi dengan status intrinsik yang berbeda.
 Objek Singleton dapat berubah. Objek Flyweight tidak dapat diubah.
-Pabrik Abstrak, Pembangun dan Prototipe semuanya dapat diimplementasikan sebagai Singleton .
+Pabrik Abstrak, Pembangun dan Prototipe semuanya dapat diimplementasikan sebagai Singleton.
+
+## Perbedaan Antara Singleton dengan Kelas Normal
+Kelas Singleton dengan kelas Normal dapat dibedakan dengan proses pembuatan objek kelas tersebut. Untuk membuat kelas normal, dapat menggunakan konstruktor Java. Di sisi lain, untuk membuat kelas singleton, kita menggunakan metode getInstance().
+
+Perbedaan lainnya adalah kelas normal lenyap pada akhir siklus hidup aplikasi sedangkan kelas singleton tidak hancur saat aplikasi selesai.
 
 ## Kelebihan dan Kekurangan Singleton
 | **Kelebihan** | **Kekurangan** |
