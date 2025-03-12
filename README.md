@@ -18,7 +18,7 @@ Penerapan
 
 2. Singleton digunakan saat  membutuhkan kontrol yang lebih ketat atas variabel global. Singleton menjamin bahwa hanya ada satu instance kelas. Tidak ada, kecuali untuk kelas Singleton itu sendiri, yang dapat menggantikan instance yang di-cache.
 
-Cara Implementasi
+## Cara Implementasi 
 1. Tambahkan bidang statis privat ke kelas untuk menyimpan instans singleton.
 2. Nyatakan metode pembuatan statis publik untuk mendapatkan instans singleton.
 3. Terapkan "laty initialization" di dalam metode statis. Metode ini harus membuat objek baru pada panggilan pertamanya dan memasukkannya ke dalam kolom statis. Metode ini harus selalu mengembalikan instance tersebut pada semua panggilan berikutnya.
