@@ -45,3 +45,4 @@ Perbedaan lainnya adalah kelas normal lenyap pada akhir siklus hidup aplikasi se
 ## Sumber
 - [Refactoring Guru - Command Pattern](https://informatics.uii.ac.id/2023/02/06/berkenalan-dengan-singleton-design-pattern/)
 - [Refactoring Guru - Command Pattern](https://www.santekno.com/cara-implementasi-singleton-design-pattern-golang/)
+- [GeeksforGeeks - Pola Design Singleton](https://www.geeksforgeeks.org/singleton-class-java/)
