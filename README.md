@@ -40,7 +40,7 @@ Perbedaan lainnya adalah kelas normal lenyap pada akhir siklus hidup aplikasi se
 | Membuat akses fungsi global. | Kesulitan ketika membuat unit test karena instance bersifat private. |
 | Objek hanya diinisialisasi untuk pertama kali saja. |
 
-## Contoh Kode Dalamnya Java
+## Contoh Kode Dalam Java
 ```java
 class Database {
    private static Database dbObject;
