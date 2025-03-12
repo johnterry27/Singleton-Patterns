@@ -13,10 +13,9 @@ Singleton adalah kelas yang hanya dapat memiliki satu objek (kelas) pada satu wa
 Singleton Design pattern bertujuan agar sebuah class hanya mempunyai satu instansiasi yang menyediakan akses global pada instansiasi tersebut. Pola desain ini membatasi sebuah kelas dan memastikan sebuah kelas hanya mengembalikan satu instansiasi saja atau instansiasi tunggal. Penggunaan singleton ini didasari pada sebuah masalah pada pembuatan sebuah objek di mana sebuah class dapat membuat banyak instansiasi. Padahal, instansiasi tersebut cuma dibutuhkan satu saja, atau sebenarnya hanya perlu satu instansiasi saja untuk melakukan sebuah aksi pada program. 
 
 ## Penggunaan Design Pattern Singleton
-1. Singleton dapat digunakan ketika kelas dalam program, seharusnya hanya memiliki satu instans yang tersedia untuk semua klien; misalnya, objek database tunggal yang dibagikan oleh berbagai bagian program. Singleton menonaktifkan semua cara lain untuk membuat objek kelas kecuali untuk metode pembuatan khusus. Metode ini membuat objek baru atau mengembalikan yang sudah ada jika sudah dibuat.
-2. Singleton digunakan saat  membutuhkan kontrol yang lebih ketat atas variabel global. Singleton menjamin bahwa hanya ada satu instance kelas. Tidak ada, kecuali untuk kelas Singleton itu sendiri, yang dapat menggantikan instance yang di-cache.
-3. Singleton digunakan ketika membutuhkan kontrol yang lebih ketat atas variabel global. Tidak seperti variabel global, pola Singleton menjamin bahwa hanya ada satu contoh kelas. Tidak ada yang dapat menggantikan contoh yang di-cache, kecuali kelas Singleton itu sendiri.
-
+1. Singleton dapat digunakan ketika suatu kelas dalam program hanya memiliki satu instans yang tersedia untuk semua klien; misalnya, objek database tunggal yang dibagikan oleh berbagai bagian program.
+2. Singleton digunakan saat  membutuhkan kontrol yang lebih ketat atas variabel global. Singleton menjamin bahwa hanya ada satu instance kelas. Tidak ada, yang dapat menggantikan instance yang di-cache, kecuali untuk kelas Singleton itu sendiri.
+   
 ## Cara Implementasi 
 1. Tambahkan bidang statis privat ke kelas untuk menyimpan instans singleton.
 2. Nyatakan metode pembuatan statis publik untuk mendapatkan instans singleton.
