@@ -40,8 +40,50 @@ Perbedaan lainnya adalah kelas normal lenyap pada akhir siklus hidup aplikasi se
 | Membuat akses fungsi global. | Kesulitan ketika membuat unit test karena instance bersifat private. |
 | Objek hanya diinisialisasi untuk pertama kali saja. |
 
+## Contoh Kode Dalamnya Java
+```java
+class Database {
+   private static Database dbObject;
+
+   private Database() {      
+   }
+
+   public static Database getInstance() {
+
+      // create object if it's not already created
+      if(dbObject == null) {
+         dbObject = new Database();
+      }
+
+       // returns the singleton object
+       return dbObject;
+   }
+
+   public void getConnection() {
+       System.out.println("You are now connected to the database.");
+   }
+}
+
+class Main {
+   public static void main(String[] args) {
+      Database db1;
+
+      // refers to the only object of Database
+      db1 = Database.getInstance();
+      
+      db1.getConnection();
+   }
+}
+```
+
+## Output:
+```
+You are now connected to the database.
+```
+
 ## Sumber
 - [Refactoring Guru - Command Pattern](https://informatics.uii.ac.id/2023/02/06/berkenalan-dengan-singleton-design-pattern/)
 - [Refactoring Guru - Command Pattern](https://www.santekno.com/cara-implementasi-singleton-design-pattern-golang/)
 - [GeeksforGeeks - Pola Design Singleton](https://www.geeksforgeeks.org/singleton-class-java/)
 - [Refactoring Guru - design patterns singleton](https://refactoring.guru/design-patterns/singleton/)
+- [Refactoring Guru - design patterns singleton](http://programiz.com/java-programming/singleton)
